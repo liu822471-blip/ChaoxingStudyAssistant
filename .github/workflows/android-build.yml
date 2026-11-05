@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract project ZIP
-        run: unzip -o ChaoxingStudyAssistant_v0.2_source.zip -d .
+        run: unzip -o ChaoxingStudyAssistant_v0.3_tablet.zip -d .
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
